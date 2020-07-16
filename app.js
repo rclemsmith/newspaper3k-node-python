@@ -2,6 +2,9 @@
 // and creates its variable. 
 var express = require('express'); 
 var app = express(); 
+var cors = require("cors");
+
+app.use(cors());
   
 // Creates a server which runs on port 3000 and  
 // can be accessed through localhost:3000 
